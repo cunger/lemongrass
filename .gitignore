@@ -1,0 +1,11 @@
+/pom.xml
+/pom.properties
+*jar
+/lib
+/classes
+/native
+/.lein-failures
+/checkouts
+/.lein-deps-sum
+*DS_Store
+*log

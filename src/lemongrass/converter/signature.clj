@@ -133,8 +133,8 @@
 
 (defn report [] 
   (with-open [w (clojure.java.io/writer log)]
-    (log/info "Writing log to" log ".")
-    (.write w (str "lemon2gf log (" (java.util.Date.) ")"))
+    (log/info "Writing log to:" log)
+    (.write w (str "lemongrass log (" (java.util.Date.) ")"))
     (.write w "\n------ @abstract ------")
     (.write w "\nConcepts:")
     (doseq [c (:concepts @abstract)]

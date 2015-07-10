@@ -31,6 +31,8 @@
     ; Generate domain grammar
     (log/info "Generating domain grammar...")
     (lemon2gf/run files)
+
+    (signature/report)
     
     ; Compose application grammar
     (log/info "Composing application grammar...")
