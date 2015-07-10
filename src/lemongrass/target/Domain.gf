@@ -1,0 +1,5 @@
+abstract Domain = Clause ** {
+
+
+
+}

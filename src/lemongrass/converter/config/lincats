@@ -1,0 +1,20 @@
+
+noun       : CN 
+properNoun : NP
+
+NounPossessiveFrame : CN 
+NounPredicateFrame  : CN
+NounPPFrame         : N2 
+
+IntransitiveFrame   : VP
+IntransitivePPFrame : V2
+TransitiveFrame     : V2 
+TransitivePPFrame   : V2
+
+AdjectiveAttributiveFrame : AP
+AdjectivePPFrame          : A2
+AdjectivePredicateFrame   : AP
+AdjectivePredicativeFrame : AP 
+AdjectiveSuperlativeFrame : AP
+
+PrepositionalPhraseFrame  : Adv

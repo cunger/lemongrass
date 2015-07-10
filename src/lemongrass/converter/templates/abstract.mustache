@@ -1,0 +1,8 @@
+abstract Domain = Clause ** {
+
+
+  {{#concepts}}
+  fun {{identifier}} : {{#args}}Entity_NP -> {{/args}} {{type}};
+  {{/concepts}}
+
+}

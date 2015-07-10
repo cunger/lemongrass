@@ -1,0 +1,1 @@
+abstract Application = Clause, Utterance, Chunk, Domain, None ** { flags startcat=Utterance_Utt; };
